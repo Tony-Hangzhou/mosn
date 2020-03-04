@@ -56,6 +56,7 @@ import (
 var Version = "0.4.0"
 
 func main() {
+	// urfave/cli 是一个基于命令行，是一个创建 app 的第三方工具包
 	app := cli.NewApp()
 	app.Name = "mosn"
 	app.Version = Version

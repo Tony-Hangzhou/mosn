@@ -62,6 +62,10 @@ var (
 				EnvVar: "FEATURE_GATES",
 			},
 		},
+		/**
+		command.run 方法调用结尾，回调command.Action函数。作用是获得解析后的参数，执行业务操作。
+		cli.newApp -> app.run -> command.action 回调
+		 */
 		Action: func(c *cli.Context) error {
 			configPath := c.String("config")
 			serviceCluster := c.String("service-cluster")
