@@ -97,7 +97,7 @@
 				]
 			},
 			{
-				"_commend": "上游cluster，发起请求端client",
+				"_commend": "上游cluster，发起请求端client ",
 				"Name": "clientCluster",
 				"type": "SIMPLE",
 				"lb_type": "LB_RANDOM",
